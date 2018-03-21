@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 export interface IEmployees {
+    id: number;
     name: string;
     lastName: string;
     birth: string;
@@ -12,6 +13,7 @@ export interface IEmployees {
 
 export const employees: IEmployees[] = [
     {
+        id: 1,
         name: 'Paweł',
         lastName: 'Kochanek',
         birth: '1980-03-16',
@@ -20,6 +22,7 @@ export const employees: IEmployees[] = [
         position: 'Junior Developer'
     },
     {
+        id: 2,
         name: 'Katarzyna',
         lastName: 'Kochanek',
         birth: '1984-05-10',
@@ -28,6 +31,7 @@ export const employees: IEmployees[] = [
         position: 'Admin Assistant'
     },
     {
+        id: 3,
         name: 'Zuzia',
         lastName: 'Kochanek',
         birth: '2013-09-06',
@@ -36,6 +40,7 @@ export const employees: IEmployees[] = [
         position: 'daughter'
     },
     {
+        id: 4,
         name: 'Michał',
         lastName: 'Kochanek',
         birth: '2016-05-20',
